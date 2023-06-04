@@ -92,12 +92,12 @@
 
         Navigation {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans        &trans         &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans        &trans         &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &kp LA(LEFT)  &kp UP_ARROW  &kp LA(RIGHT)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW      &kp DOWN      &kp RIGHT  &trans  &trans
-                        &trans  &trans  &trans  &trans          &trans        &trans
-                                &trans  &trans  &trans          &trans
+&trans         &trans  &trans  &trans  &trans  &trans  &trans          &trans        &trans         &trans  &trans  &trans
+&trans     &kp ESCAPE  &trans  &trans  &trans  &trans  &trans          &trans        &trans         &trans  &trans  &trans
+&trans  &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans    &kp LA(LEFT)  &kp UP_ARROW  &kp LA(RIGHT)  &trans  &trans
+&trans        &kp TAB  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW      &kp DOWN      &kp RIGHT  &trans  &trans
+                               &trans  &trans  &trans  &trans          &trans        &trans
+                                       &trans  &trans  &trans          &trans
             >;
         };
 

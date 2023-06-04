@@ -57,12 +57,12 @@
 
         DEF {
             bindings = <
-    &kp HASH         &kp NUMBER_1      &kp N2      &kp N3       &kp N4  &kp N5     &kp N6       &kp N7      &kp N8      &kp N9       &kp N0    &kp DEL
-     &kp TAB     &kp SINGLE_QUOTE   &kp COMMA  &kp PERIOD        &kp P   &kp Y      &kp F        &kp G       &kp C       &kp R        &kp L  &kp MINUS
-&mt LGUI ESC              &lt 0 A  &hm LALT O  &hm LCMD E  &hm LSHFT U   &kp I      &kp D  &hm RSHFT H  &hm RCMD T  &hm RALT N      &lt 0 S    &kp SQT
-  &kp LSHIFT  &hm LCTRL SEMICOLON       &kp Q       &kp J        &kp K   &kp X      &kp B        &kp M       &kp W       &kp V  &hm RCTRL Z    &kp END
-                                                    &mo 3    &kp SPACE  &trans  &kp ENTER        &mo 3       &mo 4
-                                                                &trans  &trans     &trans       &trans
+&trans               &trans      &trans      &trans       &trans  &trans     &trans       &trans      &trans      &trans       &trans  &trans
+&trans     &kp SINGLE_QUOTE   &kp COMMA  &kp PERIOD        &kp P   &kp Y      &kp F        &kp G       &kp C       &kp R        &kp L  &trans
+&trans              &lt 0 A  &hm LALT O  &hm LCMD E  &hm LSHFT U   &kp I      &kp D  &hm RSHFT H  &hm RCMD T  &hm RALT N      &lt 0 S  &trans
+&trans  &hm LCTRL SEMICOLON       &kp Q       &kp J        &kp K   &kp X      &kp B        &kp M       &kp W       &kp V  &hm RCTRL Z  &trans
+                                              &mo 3    &kp SPACE  &trans  &kp ENTER        &mo 3       &mo 4
+                                                          &trans  &trans     &trans       &trans
             >;
         };
 

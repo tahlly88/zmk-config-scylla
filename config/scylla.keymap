@@ -57,12 +57,12 @@
 
         DEF {
             bindings = <
-    &kp HASH               &kp N1      &kp N2      &kp N3       &kp N4    &kp N5       &kp N6          &kp N7      &kp N8      &kp N9       &kp N0    &kp DEL
-     &kp TAB     &kp SINGLE_QUOTE   &kp COMMA  &kp PERIOD        &kp P     &kp Y        &kp F           &kp G       &kp C       &kp R        &kp L  &kp MINUS
-&mt LGUI ESC              &lt 0 A  &hm LALT O  &hm LCMD E  &hm LSHFT U     &kp I        &kp D     &hm RSHFT H  &hm RCMD T  &hm RALT N      &lt 0 S    &kp SQT
-  &kp LSHIFT  &hm LCTRL SEMICOLON       &kp Q       &kp J        &kp K     &kp X        &kp B           &kp M       &kp W       &kp V  &hm RCTRL Z    &kp END
-                                                    &mo 0    &kp SPACE  &kp LALT  &lt 0 ENTER  &mt LSHFT BSPC       &mo 0
-                                                             &kp LCTRL  &kp LALT     &kp LALT     &screenshot
+    &kp HASH         &kp NUMBER_1      &kp N2      &kp N3       &kp N4  &kp N5     &kp N6       &kp N7      &kp N8      &kp N9       &kp N0    &kp DEL
+     &kp TAB     &kp SINGLE_QUOTE   &kp COMMA  &kp PERIOD        &kp P   &kp Y      &kp F        &kp G       &kp C       &kp R        &kp L  &kp MINUS
+&mt LGUI ESC              &lt 0 A  &hm LALT O  &hm LCMD E  &hm LSHFT U   &kp I      &kp D  &hm RSHFT H  &hm RCMD T  &hm RALT N      &lt 0 S    &kp SQT
+  &kp LSHIFT  &hm LCTRL SEMICOLON       &kp Q       &kp J        &kp K   &kp X      &kp B        &kp M       &kp W       &kp V  &hm RCTRL Z    &kp END
+                                                    &mo 3    &kp SPACE  &trans  &kp ENTER        &mo 3       &mo 4
+                                                                &trans  &trans     &trans       &trans
             >;
         };
 
@@ -81,12 +81,12 @@
 
         Symbols {
             bindings = <
-&trans        &trans        &trans        &trans        &trans         &trans        &trans        &trans        &trans        &trans        &trans  &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans        &trans        &trans        &trans        &trans  &kp BACKSLASH     &kp SLASH        &trans        &trans        &trans        &trans  &trans
-&trans        &trans        &trans        &trans        &trans         &trans        &trans        &trans        &trans        &trans        &trans  &trans
-                                          &trans        &trans         &trans        &trans        &trans        &trans
-                                                        &trans         &trans        &trans        &trans
+&trans        &trans                     &trans                  &trans        &trans         &trans        &trans        &trans        &trans        &trans        &trans  &trans
+&trans  &kp NUMBER_1               &kp NUMBER_2            &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans        &trans  &hm LEFT_ALT LEFT_BRACKET  &hm LCMD RIGHT_BRACKET        &trans  &kp BACKSLASH     &kp SLASH        &trans        &trans        &trans     &kp MINUS  &trans
+&trans        &trans                     &trans                  &trans        &trans         &trans        &trans        &trans        &trans        &trans     &kp EQUAL  &trans
+                                                                 &trans        &trans         &trans        &trans        &trans        &trans
+                                                                               &trans         &trans        &trans        &trans
             >;
         };
 

@@ -76,11 +76,11 @@
 
         DEF {
             bindings = <
-&trans  &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &kp LS(LA(LC(LG(NUMBER_4))))  &kp LS(LA(LC(LG(NUMBER_5))))  &trans     &trans       &trans      &trans      &trans       &trans
-&trans  &kp SINGLE_QUOTE              &kp COMMA                     &kp PERIOD                    &kp P                         &kp Y                         &kp F      &kp G        &kp C       &kp R       &kp L        &trans
-&trans  &lt 2 A                       &hm LALT O                    &hm LCMD E                    &hm LSHFT U                   &kp I                         &kp D      &hm RSHFT H  &hm RCMD T  &hm RALT N  &lt 2 S      &trans
-&trans  &hm LCTRL SEMICOLON           &kp Q                         &kp J                         &kp K                         &kp X                         &kp B      &kp M        &kp W       &kp V       &hm RCTRL Z  &trans
-                                                                    &mo 3                         &kp SPACE                     &trans                        &kp ENTER  &mo 3        &mo 4
+&trans  &kp LS(LA(LC(LG(NUMBER_1))))  &kp LS(LA(LC(LG(NUMBER_2))))  &kp LS(LA(LC(LG(NUMBER_3))))  &kp LS(LA(LC(LG(NUMBER_4))))  &kp LS(LA(LC(LG(NUMBER_5))))  &trans     &trans        &trans       &trans       &trans        &trans
+&trans  &kp SINGLE_QUOTE              &kp COMMA                     &kp PERIOD                    &kp P                         &kp Y                         &kp F      &kp G         &kp C        &kp R        &kp L         &trans
+&trans  &lt 2 A                       &lhm LALT O                   &lhm LCMD E                   &lhm LSHFT U                  &kp I                         &kp D      &rhm RSHFT H  &rhm RCMD T  &rhm RALT N  &lt 2 S       &trans
+&trans  &lhm LCTRL SEMICOLON          &kp Q                         &kp J                         &kp K                         &kp X                         &kp B      &kp M         &kp W        &kp V        &rhm RCTRL Z  &trans
+                                                                    &mo 3                         &kp SPACE                     &trans                        &kp ENTER  &mo 3         &mo 4
                                                                                                   &trans                        &trans                        &trans     &trans
             >;
         };
